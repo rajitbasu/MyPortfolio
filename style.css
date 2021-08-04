@@ -1,0 +1,64 @@
+@import 'utilities.css';
+
+body{
+   font-family: 'Poppins', sans-serif;
+}
+
+*{
+   padding:0;
+   margin:0;
+   box-sizing: border-box;
+   -webkit-font-smoothing:antialiased;
+}
+
+header{
+    background-color:crimson;
+    height: 700px;
+}
+.container{
+    max-width: 1152px;
+    padding:0 20px;
+    margin:0 auto;
+}
+header nav .left a{
+    color:white;
+    text-decoration: none;
+    margin-right:2rem;
+    text-transform: uppercase;
+    transition: all .5s ease;
+}
+header nav .left a:hover{
+    color:chartreuse;
+
+}
+
+header nav{
+    padding: 2rem 0;
+}
+header nav .logo{
+    margin-right:3rem;
+}
+.hero .right{
+    color: whitesmoke;
+}
+.hero .right h4{
+    color:whitesmoke;
+    font-size: 1.6rem;
+    margin-bottom: 0.5rem;
+}
+.hero .right h3{
+    font-size: 1.4rem;
+    font-weight: 100;
+    margin-bottom: 0.5rem;
+}
+.hero .right h3 span{
+    color:chartreuse
+}
+.hero .right p{
+    margin-bottom: 1rem;
+}
+.about,.skills,.projects,.contact{
+    color:blue;
+    height:600px;
+  background-image: url('https://cdn.hipwallpaper.com/i/71/20/2o73y4.jpg')
+}
